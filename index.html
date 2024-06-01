@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVER Media</title>
+
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <link rel="stylesheet" href="CSS/reset.css"/>
+    <link rel="stylesheet" href="CSS/media.css"/> 
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<input class="checkbox" type="checkbox" name="hamburger" id="hamburger" />
+<label for="hamburger" class="menu-hamburger">
+    <span class="line line1"></span>
+    <span class="line line2"></span>
+    <span class="line line3"></span>
+</label>
+
+<div class="header-top">
+    <a href="#home" class="block-center link logo"><img src="images/EverMedia.png" alt="">
+    </a>
+    <nav class="navigation">
+    <ul class="block-center menu">
+        <li class="menu-element block-center">
+            <a class="home active link menu-element__link block-center" href="#home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+              </svg>
+              </a>
+        </li>
+        <li class="menu-element block-center">
+            <a class="link menu-element__link lang" key="about" href="#about-me">О&nbsp;нас</a>
+        </li>
+        <li class="menu-element block-center">
+            <a class="link menu-element__link lang" key="achievments" href="#achievements">Достижения</a>
+        </li>
+        <li class="menu-element block-center">
+            <a class="link menu-element__link lang" key="" href="#skills">Навыки</a>
+        </li>
+        <li class="menu-element block-center">
+            <a class="link menu-element__link lang" key="" href="#work">Работа</a>
+        </li>
+        <li class="menu-element block-center">
+            <a class="link menu-element__link lang" key="" href="#interests">Портфолио</a>
+        </li>
+        <li class="menu-element block-center">
+            <a class="link menu-element__link lang" key="" href="#books">Книги</a>
+        </li>
+        <li class="menu-element block-center">
+            <a class="link menu-element__link lang" key="" href="#contact-me">Контакты</a>
+        </li>
+    </ul>
+     </nav>
+    
+</div>
+</div>
+<body>
+   
+
+    <header class="header observer-section" id="home">
+        <!-- <img class="header-background" src="images/Space.jpg" alt="background"> -->
+        <video src="images/tizer.mp4" class="header-background" autoplay muted loop></video>
+        <div class="header-background__wrapper"></div>
+
+        <div class="header-center" id="home">
+            <div class="header-center__wrapper">
+            <h1 class="name">EVER&nbsp;Media</h1>
+            <p class="description">Команда молодых медийщиков</p>
+        </div>
+        </div>
+    </header>
+<section class="about-me observer-section" id="about-me">
+ <div class="left">
+<img src="images/Team.jpg" alt="Наша команда" class="about-me__image">
+ </div>
+ <div class="right">
+    <h2 class="about-me__title">EVER Media</h2>
+    <p class="about-me__description grey">ЭВЭРМедия представляет</p>
+    <p class="about-me__description">Медиа-мастерская «EVER Media» - это уникальное творческое объединение, которое занимается различными видами деятельности в области медиа. Мы создаем качественную журналистику, снимаем интересные и оригинальные видеоролики, проводим прямые трансляции, активно работаем в социальных сетях (SMM), пишем захватывающие сценарии для различных проектов, а также организуем и освещаем различные мероприятия.</p>
+    <p class="about-me__description">Все участники нашей команды - это талантливые подростки и студенты из разных образовательных учреждений города Кирова. Каждый из них обладает особыми качествами, которые делают нашу команду сильной и эффективной. Это креативность, открытость новому, критическое мышление, умение работать в команде и стремление достигать общих целей.</p>
+    <p class="about-me__description">Мы всегда открыты для новых идей и проектов. Если у вас есть интересная идея или предложение, мы будем рады обсудить его вместе и, возможно, превратить в реальность.</p>
+    <p class="about-me__description">Наша группа в VK: <a target="_blank" class="link" href="https://vk.com/ever.media" class="">EVER Media</a></p>
+    
+    <ul class="about-me__extra">
+        
+<li class="about-me__extra-element">
+    <span class="about-me__extra-icon birthday"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path d="m15 1.784-.796.795a1.125 1.125 0 1 0 1.591 0L15 1.784ZM12 1.784l-.796.795a1.125 1.125 0 1 0 1.591 0L12 1.784ZM9 1.784l-.796.795a1.125 1.125 0 1 0 1.591 0L9 1.784ZM9.75 7.547c.498-.021.998-.035 1.5-.042V6.75a.75.75 0 0 1 1.5 0v.755c.502.007 1.002.021 1.5.042V6.75a.75.75 0 0 1 1.5 0v.88l.307.022c1.55.117 2.693 1.427 2.693 2.946v1.018a62.182 62.182 0 0 0-13.5 0v-1.018c0-1.519 1.143-2.829 2.693-2.946l.307-.022v-.88a.75.75 0 0 1 1.5 0v.797ZM12 12.75c-2.472 0-4.9.184-7.274.54-1.454.217-2.476 1.482-2.476 2.916v.384a4.104 4.104 0 0 1 2.585.364 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 3.67 0 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 3.67 0 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 2.585-.364v-.384c0-1.434-1.022-2.7-2.476-2.917A49.138 49.138 0 0 0 12 12.75ZM21.75 18.131a2.604 2.604 0 0 0-1.915.165 4.104 4.104 0 0 1-3.67 0 2.605 2.605 0 0 0-2.33 0 4.104 4.104 0 0 1-3.67 0 2.605 2.605 0 0 0-2.33 0 4.104 4.104 0 0 1-3.67 0 2.604 2.604 0 0 0-1.915-.165v2.494c0 1.035.84 1.875 1.875 1.875h15.75c1.035 0 1.875-.84 1.875-1.875v-2.494Z" />
+      </svg>
+      </span>
+    <span class="about-me__extra-title bold">Дата основания:</span>
+    <span class="about-me__extra-description"> 2021</span>
+</li>
+<li class="about-me__extra-element">
+    <span class="about-me__extra-icon address"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+      </svg>
+      </span>
+    <span class="about-me__extra-title bold">Город:</span> 
+    <span class="about-me__extra-description">Киров</span>
+</li>
+<li class="about-me__extra-element">
+    <span class="about-me__extra-icon quantity"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+      </svg>      
+      </span>
+    <span class="about-me__extra-title bold">Количество сотрудников:</span>
+    <span class="about-me__description "> 6</span>
+</li>
+    </ul>
+ </div>
+</section>
+<section class="achievements observer-section section-grey block-center" id="achievements">
+    <h2 class="second-title">Достижения</h2>
+    <section class="section-description">«Величайшие достижения всегда требуют величайших жертв». Джордж Вашингтон</section>
+    <div class="achievements-list slider">
+            <input class="slider__input" type="radio" name="slider_achievements" id="slider-achievements-1" checked />
+            <input class="slider__input" type="radio" name="slider_achievements" id="slider-achievements-2" />
+            <input class="slider__input" type="radio" name="slider_achievements" id="slider-achievements-3" />
+        <div class="achievements-list__view slider__wrapper">
+            <a href="" class="achievements-list__element slider__link slider__link block-center">
+                <img class="achievements-list__image slider__image" src="/images/Грамоты/Таврида2022.jpg" alt="">
+            </a>
+            <a href="" class="achievements-list__element slider__link block-center">
+                <img class="achievements-list__image slider__image" src="images/Грамоты/Заочка.jpg" alt="">
+            </a>
+            <a href="" class="achievements-list__element slider__link block-center">
+                <img class="achievements-list__image slider__image" src="/images/Грамоты/Таврида обр заезд.png" alt="">
+            </a>
+        </div>
+        <div class="achievements-list__view slider__wrapper">
+            <a href="" class="achievements-list__element slider__link slider__link block-center">
+                <img class="achievements-list__image slider__image" src="/images/Грамоты/Пространство развития.jpg" alt="">
+            </a>
+            <a href="" class="achievements-list__element slider__link slider__link block-center">
+                <img class="achievements-list__image slider__image" src="images/Грамоты/Владивосток.jpg" alt="">
+            </a>
+            <a href="" class="achievements-list__element slider__link slider__link block-center">
+                <img class="achievements-list__image slider__image" src="/images/Грамоты/Василию Винокурову.jpg" alt="">
+            </a>
+        </div>
+        <div class="achievements-list__view slider__wrapper">
+            <a href="" class="achievements-list__element slider__link block-center">
+                <img class="achievements-list__image slider__image" src="/images/Грамоты/Тавирад23.png" alt="">
+            </a>
+            <a href="" class="achievements-list__element slider__link block-center">
+                <img class="achievements-list__image slider__image" src="/images/Грамоты/Сертификат участника.jpg" alt="">
+            </a>
+            <a href="" class="achievements-list__element slider__link block-center">
+                <img class="achievements-list__image slider__image" src="/images/Грамоты/РДШ.jpg" alt="">
+            </a>
+        </div>
+        <div class="slider__controls block-center">
+            <label for="slider-achievements-1" class="slider__controls-element"></label>
+            <label for="slider-achievements-2" class="slider__controls-element"></label>
+            <label for="slider-achievements-3" class="slider__controls-element"></label>
+        </div>
+    </div>
+    
+</section>
+<section class="skills observer-section" id="skills">
+    <h2 class="second-title">Навыки</h2>
+    <section class="section-description">«Мастерство — это не отдельный навык. Это комбинация навыков». Роберт Земекис</section>
+    <!--
+    <ul class="skills-filters block-center">
+        <li role="button" class="skills-filter active">Все</li>
+        <li role="button" class="skills-filter">Репортажи фото</li>
+        <li role="button" class="skills-filter">Репортажи видео</li>
+        <li role="button" class="skills-filter">Фотосессии</li>
+        <li role="button" class="skills-filter">Съёмка клипов</li>
+        <li role="button" class="skills-filter">Прямые трансляции</li>
+    </ul>
+-->
+    <div class="skills-wrapper"> 
+        
+            <div class="skills-list left">
+                <div class="skills-list__row">
+                    <div class="skills-list__element">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+<svg fill="#000000" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 487 487" xml:space="preserve">
+<g>
+	<g>
+		<path d="M308.1,277.95c0,35.7-28.9,64.6-64.6,64.6s-64.6-28.9-64.6-64.6s28.9-64.6,64.6-64.6S308.1,242.25,308.1,277.95z
+			 M440.3,116.05c25.8,0,46.7,20.9,46.7,46.7v122.4v103.8c0,27.5-22.3,49.8-49.8,49.8H49.8c-27.5,0-49.8-22.3-49.8-49.8v-103.9
+			v-122.3l0,0c0-25.8,20.9-46.7,46.7-46.7h93.4l4.4-18.6c6.7-28.8,32.4-49.2,62-49.2h74.1c29.6,0,55.3,20.4,62,49.2l4.3,18.6H440.3z
+			 M97.4,183.45c0-12.9-10.5-23.4-23.4-23.4c-13,0-23.5,10.5-23.5,23.4s10.5,23.4,23.4,23.4C86.9,206.95,97.4,196.45,97.4,183.45z
+			 M358.7,277.95c0-63.6-51.6-115.2-115.2-115.2s-115.2,51.6-115.2,115.2s51.6,115.2,115.2,115.2S358.7,341.55,358.7,277.95z"/>
+	</g>
+</g>
+</svg>
+                        <span class="skills-list__title">Фотосъёмка</span>
+                    </div>
+
+                    <div class="skills-list__element">
+                        <svg fill="#000000" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                             viewBox="0 0 488.705 488.705" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M163.005,278.55h-83c-43.5,0-80.5,35.6-80,79c0.2,18.2,6.7,34.9,17.3,48.1l-7.1,11.5c-5.2,8.5-3.9,19.5,3.1,26.5
+                                    c8.4,8.4,22.1,8.4,30.5,0l12.2-12.2c9.4,2.8,19.5,3.8,30,2.8c33.7-3.3,61.8-28.8,68.6-62c2.4-11.7,2-23-0.5-33.6h15.2
+                                    c9,0,17.8-3,25-8.5l294.4-227.2c-4.3-8.4-10.3-15.4-17.3-20.8c-21.9-16.5-52.5-14.6-73.4,3l-133.1,112.6l-70.6-54.5
+                                    c-7.1-5.5-15.9-8.5-25-8.5h-15.2c2.5-10.5,2.9-21.8,0.5-33.6c-6.8-33.2-34.9-58.7-68.6-62c-46.4-4.6-85.5,31.5-86,76.8
+                                    c-0.5,43.5,36.5,79,80,79h83c4.1,0,8.1,1.5,11.3,4.1l44.5,37.7l-44.5,37.7C171.105,277.15,167.105,278.55,163.005,278.55z
+                                     M78.105,392.05c-19.6,0-35.4-15.9-35.4-35.4c0-19.6,15.9-35.4,35.4-35.4c19.6,0,35.4,15.9,35.4,35.4
+                                    C113.505,376.25,97.605,392.05,78.105,392.05z M78.105,152.35c-19.6,0-35.4-15.9-35.4-35.4s15.8-35.5,35.4-35.5
+                                    s35.4,15.9,35.4,35.4S97.605,152.35,78.105,152.35z M339.205,255.95l149.4,114.5c-3.7,7.4-8.8,13.7-14.7,18.7
+                                    c-21.8,18.5-54.2,17.5-76.1-0.9l-110.1-92.6L339.205,255.95z"/>
+                            </g>
+                        </g>
+                        </svg>
+                        <span class="skills-list__title">Видемонтаж</span>
+                    </div>
+                    <div class="skills-list__element">
+                        <svg  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                        width="800px" viewBox="0 0 512.000000 512.000000"
+                        preserveAspectRatio="xMidYMid meet">
+                       
+                       <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                       fill="#000000" stroke="none">
+                       <path d="M800 4766 c-386 -82 -676 -361 -773 -746 -31 -122 -30 -339 1 -464
+                       46 -182 142 -347 280 -477 285 -270 697 -348 1061 -200 310 126 534 408 597
+                       752 l18 94 12 -80 c15 -103 27 -148 69 -244 206 -483 771 -720 1264 -531 291
+                       112 517 366 603 678 18 63 22 106 22 242 1 143 -2 176 -22 250 -94 343 -350
+                       605 -688 705 -121 37 -330 46 -454 21 -240 -49 -441 -168 -585 -348 -123 -155
+                       -212 -368 -216 -523 -1 -29 -7 -10 -24 70 -28 133 -54 207 -101 294 -133 244
+                       -346 414 -614 491 -96 28 -350 37 -450 16z m285 -580 c202 -48 338 -250 305
+                       -453 -11 -63 -57 -165 -93 -205 -107 -116 -273 -165 -417 -122 -132 39 -246
+                       155 -280 283 -15 59 -13 175 4 232 39 126 144 225 276 261 80 21 128 22 205 4z
+                       m1966 4 c257 -49 401 -343 282 -577 -34 -68 -110 -146 -171 -177 -273 -137
+                       -592 57 -592 358 0 120 42 218 124 294 99 91 224 127 357 102z"/>
+                       <path d="M1571 2774 c-74 -46 -185 -91 -300 -122 -84 -22 -117 -25 -266 -26
+                       -106 -1 -192 4 -230 12 -88 19 -212 60 -266 87 l-47 24 -38 -28 c-102 -74
+                       -173 -188 -194 -309 -7 -47 -10 -313 -8 -872 3 -797 3 -806 25 -862 60 -157
+                       171 -264 332 -319 52 -18 110 -19 1406 -19 1296 0 1354 1 1406 19 93 31 141
+                       61 204 125 74 74 111 138 136 235 18 70 19 119 19 845 0 490 -4 795 -11 836
+                       -19 122 -103 255 -204 327 l-31 21 -67 -29 c-313 -133 -652 -131 -952 6 -40
+                       18 -90 45 -111 59 l-39 26 -355 -1 -355 -1 -54 -34z"/>
+                       <path d="M4794 2557 c-34 -17 -244 -138 -467 -267 l-406 -235 -1 -487 0 -487
+                       118 -70 c64 -38 270 -158 457 -267 l340 -198 72 -1 c63 0 76 3 114 30 23 17
+                       52 48 64 71 22 41 22 45 29 907 8 951 10 905 -52 970 -71 75 -167 88 -268 34z"/>
+                       </g>
+                       </svg>
+                        <span class="skills-list__title">Видеосъёмка</span>
+                    </div>
+                 </div>
+
+                 
+                <div class="skills-list__row">
+                    <div class="skills-list__element">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="800px" viewBox="0 0 512.000000 512.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M4592 4874 c-12 -8 -46 -50 -74 -92 -110 -164 -221 -243 -423 -302
+-152 -44 -217 -80 -300 -164 -87 -88 -129 -159 -155 -260 -37 -147 -22 -292
+47 -436 45 -94 166 -219 260 -268 264 -138 603 -67 781 162 120 155 192 450
+192 779 -1 290 -65 478 -194 565 -53 35 -99 41 -134 16z"/>
+<path d="M1955 4609 c-663 -69 -1264 -490 -1559 -1092 -198 -404 -249 -891
+-142 -1332 121 -493 436 -929 865 -1195 165 -102 267 -140 381 -140 135 0 285
+65 385 166 110 111 155 238 155 442 1 445 238 764 625 841 l80 15 97 196 c92
+185 211 401 308 555 48 78 104 142 132 151 12 3 52 73 109 186 l90 181 -26 92
+c-35 124 -42 244 -21 363 l16 93 -31 27 c-396 338 -940 506 -1464 451z m751
+-790 c56 -17 77 -31 125 -78 49 -49 61 -69 80 -130 36 -120 13 -224 -71 -315
+-23 -25 -68 -58 -99 -73 -47 -24 -68 -28 -136 -28 -158 1 -271 91 -311 247
+-19 72 -13 130 20 203 42 93 115 154 215 181 66 18 100 17 177 -7z m-1116
+-178 c78 -30 134 -81 172 -158 28 -58 33 -77 33 -143 -1 -92 -32 -168 -95
+-228 -68 -67 -120 -87 -225 -87 -106 0 -155 20 -225 88 -65 63 -94 135 -94
+227 1 142 81 257 212 305 56 20 163 18 222 -4z m-176 -1101 c124 -47 206 -164
+206 -296 0 -104 -22 -158 -94 -230 -78 -77 -134 -99 -245 -92 -165 10 -285
+128 -298 292 -19 233 212 407 431 326z"/>
+<path d="M3521 3225 c-64 -133 -78 -155 -101 -160 -39 -9 -68 -44 -153 -186
+-432 -720 -697 -1458 -768 -2136 -13 -128 -7 -348 11 -408 18 -59 69 -105 116
+-105 216 0 682 532 1047 1195 159 289 347 744 463 1120 37 119 40 143 23 189
+-9 28 -4 47 55 186 l65 155 -87 8 c-213 19 -398 104 -537 246 -27 28 -52 51
+-55 50 -3 0 -38 -70 -79 -154z"/>
+</g>
+</svg>
+                        <span class="skills-list__title">Цветокоррекция</span>
+                    </div>
+
+                    <div class="skills-list__element">
+                        
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="800px" viewBox="0 0 512.000000 512.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M2655 4946 c-37 -17 -70 -52 -84 -89 -8 -20 -11 -455 -11 -1408 l0
+-1380 -72 59 c-143 116 -261 180 -419 226 -598 173 -1230 -186 -1389 -789
+-100 -382 8 -789 285 -1070 338 -343 860 -431 1293 -218 319 157 549 470 607
+828 13 75 15 282 15 1272 l0 1182 123 -59 c343 -163 707 -260 1090 -291 251
+-20 306 -10 361 65 21 27 21 38 21 566 0 528 0 539 -21 566 -39 52 -69 68
+-142 71 -577 27 -968 139 -1424 410 -122 72 -176 86 -233 59z"/>
+</g>
+</svg>
+                            <span class="skills-list__title">Работа со звуком</span>
+                        </div>
+
+                        <div class="skills-list__element">
+                        
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                            width="800px" viewBox="0 0 512.000000 512.000000"
+                            preserveAspectRatio="xMidYMid meet">
+                           
+                           <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                           fill="#000000" stroke="none">
+                           <path d="M2203 5105 c-3 -9 0 -59 7 -112 28 -208 -4 -437 -86 -623 -97 -220
+                           -201 -360 -564 -755 -231 -251 -299 -330 -395 -459 -189 -254 -305 -486 -374
+                           -747 -56 -209 -65 -290 -65 -559 0 -228 2 -254 27 -371 162 -760 754 -1331
+                           1507 -1454 1016 -165 1975 554 2126 1595 20 143 15 454 -11 600 -58 324 -168
+                           605 -334 852 -101 150 -136 158 -132 28 7 -246 -142 -439 -371 -481 -86 -16
+                           -179 -1 -264 41 -76 37 -170 134 -210 217 -28 55 -29 64 -28 188 1 103 7 163
+                           33 290 39 199 46 298 32 445 -24 229 -72 397 -172 590 -136 264 -359 509 -625
+                           689 -66 44 -91 50 -101 26z m142 -2521 c8 -9 14 -24 11 -33 -12 -42 -16 -307
+                           -7 -406 21 -217 71 -336 191 -455 124 -124 260 -176 440 -167 141 6 250 50
+                           373 149 36 29 56 17 79 -44 52 -141 65 -361 29 -513 -82 -342 -348 -612 -686
+                           -697 -123 -30 -323 -30 -438 0 -335 91 -588 347 -673 681 -20 77 -24 119 -24
+                           236 0 349 102 618 354 931 81 101 307 334 323 334 6 0 19 -7 28 -16z"/>
+                           </g>
+                           </svg>
+                            <span class="skills-list__title">Создание эффектов</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+                </div>
+        <!--
+        <div class="skill-card right">
+            <div class="skill-card__title">
+                <img src="" alt="" class="skill-card__image">
+                <svg class="skill-card__image" fill="#000000" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="0 0 487 487" xml:space="preserve">
+           <g>
+               <g>
+                   <path d="M308.1,277.95c0,35.7-28.9,64.6-64.6,64.6s-64.6-28.9-64.6-64.6s28.9-64.6,64.6-64.6S308.1,242.25,308.1,277.95z
+                        M440.3,116.05c25.8,0,46.7,20.9,46.7,46.7v122.4v103.8c0,27.5-22.3,49.8-49.8,49.8H49.8c-27.5,0-49.8-22.3-49.8-49.8v-103.9
+                       v-122.3l0,0c0-25.8,20.9-46.7,46.7-46.7h93.4l4.4-18.6c6.7-28.8,32.4-49.2,62-49.2h74.1c29.6,0,55.3,20.4,62,49.2l4.3,18.6H440.3z
+                        M97.4,183.45c0-12.9-10.5-23.4-23.4-23.4c-13,0-23.5,10.5-23.5,23.4s10.5,23.4,23.4,23.4C86.9,206.95,97.4,196.45,97.4,183.45z
+                        M358.7,277.95c0-63.6-51.6-115.2-115.2-115.2s-115.2,51.6-115.2,115.2s51.6,115.2,115.2,115.2S358.7,341.55,358.7,277.95z"/>
+               </g>
+           </g>
+           </svg>
+                <span class="skill-card__name">название блока</span>
+            </div>
+            <p class="skill-card__description">Описание блока</p>
+        </div> 
+    -->
+    </div>
+</section>
+
+<section class="work observer-section section-grey" id="work">
+    <h2 class="second-title">Работа</h2>
+    <div class="work-wrapper">
+        <div class="work-element work-element__animation left" data-year="2021">
+            <div class="work-element__content">
+                <p class="work-element__title bold">Школа</p>
+                <p class="work-element__description"></p>
+                <p class="work-element__block-title bold">Навыки</p>
+                <ul class="work-element__skills">
+                    <li class="work-element__skills-element">Коммуникабельность</li>
+                    <li class="work-element__skills-element">Стрессоустойчивость</li>
+                    <li class="work-element__skills-element">Ответственность</li>
+                </ul>
+            </div>
+        </div>
+        <div class="work-element work-element__animation right" data-year="2022">
+            <div class="work-element__content">
+                <p class="work-element__title bold">Работа на базе волонтёрского центра</p>
+                <p class="work-element__description">Работа на добровольных началах</p>
+                <p class="work-element__block-title bold">Проекты</p>
+                <ul class="work-element__projects">
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">Новостной дайджест</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Новости в видео формате обо всём
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <p class="work-element__block-title bold">Навыки</p>
+                <ul class="work-element__skills">
+                    <li class="work-element__skills-element">Видеосъёмка</li>
+                    <li class="work-element__skills-element">Монтаж</li>
+                    <li class="work-element__skills-element">Фотосъёмка</li>      
+                </ul>
+            </div>
+        </div>
+
+        <div class="work-element work-element__animation left" data-year="2023">
+            <div class="work-element__content">
+                <p class="work-element__title bold">Медиацентр EVER Media</p>
+                <p class="work-element__description">Создание полноценного медиацетра</p>
+                <p class="work-element__block-title bold">Проекты</p>
+                <ul class="work-element__projects">
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">«Железная Воля»</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Фильм посвящён памяти о Великой Отечественной войне и рассказывает историю об осознании современным подростком важности сохранения этой памяти.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">Трансляция бокса</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Проведение прямого эфира Всероссийского чемпионата по боксу общества Динамо.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">Интуиция</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Организация интеллектуальной онлайн игры «Интуиция».
+                            </p>
+                        </div>
+                    </li>
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">Добро.Университет</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Полное медиасопровождение регионального обучения волонтёров.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <p class="work-element__block-title bold">Навыки</p>
+                <ul class="work-element__skills">
+                    <li class="work-element__skills-element">OBS</li>
+                    <li class="work-element__skills-element">vMix</li>
+                    <li class="work-element__skills-element">Клиповый монтаж</li>
+                    <li class="work-element__skills-element">Продюсирование</li>
+                    <li class="work-element__skills-element">Саунддизайн</li>
+                    <li class="work-element__skills-element">VFX</li>
+                    <li class="work-element__skills-element">Постановка света</li>
+                    <li class="work-element__skills-element">Стедикам</li>
+                    <li class="work-element__skills-element">Клинап</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="work-element work-element__animation right" data-year="2024">
+            <div class="work-element__content">
+                <p class="work-element__title bold">EVER Media Production</p>
+                <p class="work-element__description">Полноценный продакшн по созданию контента</p>
+                <p class="work-element__block-title bold">Проекты</p>
+                <ul class="work-element__projects">
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">Клип СПК</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Полное производство клипа «Деньги» на корпоративное мероприятие Самого популярного кафе.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">«Жизнь - опера»</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Съёмка клипа на международном чемпионате творческих компетенций «ArtMasters».
+                            </p>
+                        </div>
+                    </li>
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">Смена Первых</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Полное медиасопровождение загородной лагерной смены всероссийского движения Первых
+                            </p>
+                        </div>
+                    </li>
+                    <li class="work-element__projects-element work-project">
+                        <span class="work-project__title">Киров 650</span>
+                        <div class="work-tooltip">
+                            <p class="work-project__description">
+                                Полный цикл создания рекламы набора в волонтёрский корпус к 650летию Кирова
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <p class="work-element__block-title bold">Навыки</p>
+                <ul class="work-element__skills">
+                    <li class="work-element__skills-element">Мастеринг звука</li>
+                    <li class="work-element__skills-element">3D графика</li>
+                    <li class="work-element__skills-element">Покадровая анимация</li>
+                    <li class="work-element__skills-element">Аэросъёмка</li>
+                    <li class="work-element__skills-element">Дизайн</li>
+                    <li class="work-element__skills-element">Клинап</li>
+                    <li class="work-element__skills-element">Колористика</li>
+                    <li class="work-element__skills-element">Ретушь</li>
+                    <li class="work-element__skills-element">Ручной фокус</li>
+                    <li class="work-element__skills-element">Прелайт</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="interests observer-section" id="interests">
+    <h2 class="second-title">Портфолио</h2>
+    <div class="interests__list">
+        <div class="interest-wrapper"><img src="images/Портфолио/Железная воля.jpeg" alt="" class="interest-image">
+            <p class="interest-title bold"><a target="_blank" class="link black" href="https://youtu.be/nfI5VNU2qkY?si=x0H5beM8OWXMaTB4">Короткометражный фильм <br/>«Железная воля»</a></p>
+            <p class="interest-text">Фильм посвящён памяти о Великой Отечественной войне и рассказывает историю об осознании современным подростком важности сохранения этой памяти. На создание фильма ушло 4 месяца.</p>
+        </div>
+            <div class="interest-wrapper"><img src="images/Портфолио/Сокол.jpg" alt="" class="interest-image">
+            <p class="interest-title bold"><a target="_blank" class="link black" href="https://disk.yandex.ru/i/3tTgCJzwBwOOVQ">Реклама умного домофона «Сокол»</a></p>
+        <p class="interest-text">Основной целью было создание привлекательного и информативного видеоролика, который бы отражал все преимущества продукта. Результатом стал яркий и запоминающийся рекламный ролик, который, безусловно, поможет продвижению умного домофона «Сокол» на рынке.</p>
+        </div>
+            <div class="interest-wrapper"><img src="images/Портфолио/Деньги.jpg" alt="" class="interest-image">
+            <p class="interest-title bold"><a target="_blank" class="link black" href="https://vk.com/video-214007553_456239027?t=4s">Клип «Деньги»</a></p>
+        <p class="interest-text">В этих съёмках мы задействовали большой спектр техники, от самых разных световых приборов, до крана! За 8 часов мы отсняли весь материал и дальше нас ждал кропотливый процесс монтажа и сведения звука с видеорядом. Вместе с тем для клипа была создана наша авторская графика.</p>
+        </div>
+            <div class="interest-wrapper"><img src="images/Портфолио/Театр.jpg" alt="" class="interest-image">
+            <p class="interest-title bold"><a target="_blank" class="link black" href="https://vk.com/wall-214007553_84">Видеосъёмка социальных спектаклей</a></p>
+        <p class="interest-text">Были организованы съёмки лучших социальных спектаклей. По итогу, мы подготовили ролик, объединяющий спектакли по разным важным сейчас для общества темам, будь то буллинг и травля или же поддержание здорового образа жизни.</p>
+        </div>
+            <div class="interest-wrapper"><img src="images/Портфолио/СПК.jpg" alt="" class="interest-image">
+            <p class="interest-title bold"><a target="_blank" class="link black" href="https://vk.com/video-1323827_456239395">Реклама «СПК»</a></p>
+        <p class="interest-text">Для Самого популярного кафе наша команда подготовила рекламный ролик. В нём мы попытались отразить все стороны этого заведения и ярко их преподнести!</p>
+        </div>
+            <div class="interest-wrapper"><img src="images/Портфолио/Репортаж.jpg" alt="" class="interest-image">
+            <p class="interest-title bold"><a target="_blank" class="link black" href="https://vk.com/video-214007553_456239029">Специальный репортаж с дня РСО</a></p>
+        <p class="interest-text">Кировские студотряды ярко и зажигательно отметили свой праздник. Мы же в свою очередь подготовили для них юмористический репортаж.</p>
+        </div>
+    </div>
+</section>
+
+<section class="books observer-section section-grey block-center" id="books">
+    <h2 class="second-title">Прочитанные книги</h2>
+    <section class="section-description">«Читать следует много, но выбирать хорошее». — Лев Толстой.</section>
+    <div class="books-list slider">
+        <input class="slider__input" type="radio" name="slider_books" id="slider-books-1" checked />
+        <input class="slider__input" type="radio" name="slider_books" id="slider-books-2" />
+        <input class="slider__input" type="radio" name="slider_books" id="slider-books-3" />
+        <div class="slider__wrapper">
+            <a href="" class="slider__link slider__link block-center">
+                <img class="slider__image" src="/images/Книги/1.jpg" alt="">
+            </a>
+            <a href="" class="slider__link slider__link block-center">
+                <img class="slider__image" src="/images/Книги/2.jpg" alt="">
+            </a>
+            <a href="" class="slider__link slider__link block-center">
+                <img class="slider__image" src="/images/Книги/3.jpg" alt="">
+            </a>
+        </div>
+        <div class="slider__wrapper">
+            <a href="" class="slider__link slider__link block-center">
+                <img class="slider__image" src="/images/Книги/4.jpg" alt="">
+            </a>
+            <a href="" class="slider__link block-center">
+                <img class="slider__image" src="/images/Книги/5.jpg" alt="">
+            </a>
+            <a href="" class="slider__link block-center">
+                <img class="slider__image" src="/images/Книги/6.jpg" alt="">
+            </a>
+        </div>
+        <div class="slider__wrapper">
+            <a href="" class="slider__link block-center">
+                <img class="slider__image" src="/images/Книги/7.jpg" alt="">
+            </a>
+            <a href="" class="slider__link block-center">
+                <img class="slider__image" src="/images/Книги/8.jpg" alt="">
+            </a>
+            <a href="" class="slider__link block-center">
+                <img class="slider__image" src="/images/Книги/9.jpg" alt="">
+            </a>
+        </div>
+        <div class="slider__controls block-center">
+            <label for="slider-books-1" class="slider__controls-element"></label>
+            <label for="slider-books-2" class="slider__controls-element"></label>
+            <label for="slider-books-3" class="slider__controls-element"></label>
+        </div>
+    </div>
+</section>
+
+<section class="contact-me observer-section" id="contact-me">
+    <h2 class="second-title">Связь с нами </h2>
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-me__form">
+        <input type="hidden" name="access_key" value="a35978f6-6142-46cb-8aed-73e8be55b5cd">
+<div class="input-wrapper left">
+    <label class="label bold"  for="name">Имя</label>
+    <input class="input" type="text" name="name" placeholder="Введите ваше имя" id="name" required/>
+</div>
+<div class="input-wrapper right">
+    <label class="label bold" for="email">E-mail</label>
+    <input class="input" type="email" name="email" placeholder="Введите ваш email" id="email" required/>
+</div>
+<div class="cls"></div>
+<div class="textarea-wrapper">
+    <label class="label bold" for="message">Сообщение</label>
+    <textarea class="textarea" name="message" placeholder="Введите ваше сообщение" id="message" cols="30" rows="10" required></textarea>
+</div>
+<button type="submit" class="submit">Отправить </button>
+    </form>
+
+    <!--<div class="form-result block-center">
+        <div class="form-result__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse est excepturi inventore itaque iusto nihil quam sit tenetur voluptatibus?</p>
+        </div>
+    -->
+    </div>
+</section>
+
+    <footer>
+        <footer class="footer section-grey">
+        <ul class="socials">
+            <li class="social-element">
+                <a href="" class="link block-center social-element__link" target="_blank">
+                    <svg class="link" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.344 16.163h-1.867c-1.055 0-1.232-.601-2.102-1.469-.785-.785-1.22-.183-1.202.935.006.297-.141.534-.495.534-1.105 0-2.694.156-4.304-1.58-1.647-1.779-3.374-5.348-3.374-5.699 0-.208.172-.301.459-.301h1.898c.503 0 .545.249.686.568.584 1.331 1.981 4.002 2.354 2.511.214-.856.301-2.839-.615-3.01-.52-.096.396-.652 1.722-.652.33 0 .688.035 1.054.12.673.156.676.458.666.898-.034 1.666-.235 2.786.204 3.069.419.271 1.521-1.502 2.104-2.871.159-.378.191-.632.643-.632h2.322c1.216 0-.159 1.748-1.21 3.112-.847 1.099-.802 1.12.183 2.034.701.651 1.53 1.54 1.53 2.043 0 .238-.186.39-.656.39z"/></svg>
+                </a>
+            </li>
+            <li class="social-element">
+                <a href="" class="link block-center social-element__link" target="_blank">
+                    <svg class="link" width="24px" height="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path id="telegram-4" d="M12,0c-6.626,0 -12,5.372 -12,12c0,6.627 5.374,12 12,12c6.627,0 12,-5.373 12,-12c0,-6.628 -5.373,-12 -12,-12Zm3.224,17.871c0.188,0.133 0.43,0.166 0.646,0.085c0.215,-0.082 0.374,-0.267 0.422,-0.491c0.507,-2.382 1.737,-8.412 2.198,-10.578c0.035,-0.164 -0.023,-0.334 -0.151,-0.443c-0.129,-0.109 -0.307,-0.14 -0.465,-0.082c-2.446,0.906 -9.979,3.732 -13.058,4.871c-0.195,0.073 -0.322,0.26 -0.316,0.467c0.007,0.206 0.146,0.385 0.346,0.445c1.381,0.413 3.193,0.988 3.193,0.988c0,0 0.847,2.558 1.288,3.858c0.056,0.164 0.184,0.292 0.352,0.336c0.169,0.044 0.348,-0.002 0.474,-0.121c0.709,-0.669 1.805,-1.704 1.805,-1.704c0,0 2.084,1.527 3.266,2.369Zm-6.423,-5.062l0.98,3.231l0.218,-2.046c0,0 3.783,-3.413 5.941,-5.358c0.063,-0.057 0.071,-0.153 0.019,-0.22c-0.052,-0.067 -0.148,-0.083 -0.219,-0.037c-2.5,1.596 -6.939,4.43 -6.939,4.43Z"/></svg>
+                </a>
+            </li>
+        </ul>
+<p class="footer-about">
+    &copy;&nbsp;EVER&nbsp;Media 2021&nbsp;-&nbsp;2024
+</p>
+    </footer>
+     <script src="/JS/script.js"></script>
+     <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>
